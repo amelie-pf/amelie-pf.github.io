@@ -318,7 +318,14 @@ ul, ol {
     
 }
 
-.project-detail-header{
+.project-detail-header-small{
+    background-color: var(--light-beige);
+    border-radius: 20px;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.project-detail-header-big{
     background-color: var(--light-beige);
     border-radius: 20px;
     padding-top: 1.5rem;
@@ -363,10 +370,19 @@ ul, ol {
 
       }
 
-      .project-detail-header-flex-container {
+    .project-detail-header-flex-container {
         flex-direction: row;
 
      }
+
+     .project-detail-header-small{
+        display: flex;
+
+    }
+   
+   .project-detail-header-big{
+       display: none;
+   }
 
      .project-flex-container {
         flex-direction: column;
@@ -446,14 +462,7 @@ ul, ol {
         text-align: left;
     }
 
-    .project-header-img-small{
-        visibility: visible;
-    }
-
-    .project-header-img-big{
-        visibility: hidden;
-    }
-
+ 
 
 
   }
@@ -494,6 +503,14 @@ ul, ol {
         
     }
   
+    .project-detail-header-small{
+        display: none;
+
+    }
+   
+   .project-detail-header-big{
+       display: flex;
+   }
 
     .welcome-section{
         padding-left:5rem;
@@ -529,7 +546,7 @@ ul, ol {
 
         .project-header-box-left{
             vertical-align: middle;
-            padding-right: 10rem;
+            padding-right: 3rem;
             text-align: left;
         }
 
@@ -561,14 +578,6 @@ ul, ol {
             text-align: left;
         }
 
-        .project-header-img-small{
-            visibility: hidden;
-        }
-    
-        .project-header-img-big{
-            visibility: visible;
-        }
-
     }
 
     /* css style für desktop */
@@ -597,6 +606,15 @@ ul, ol {
             justify-content: space-between;
           
         }
+
+        .project-detail-header-small{
+            display: none;
+    
+        }
+       
+       .project-detail-header-big{
+           display: flex;
+       }
     
         .welcome-section{
             padding-left:10rem;
@@ -663,14 +681,6 @@ ul, ol {
         .project-box-right{
             padding-left: 5rem;
     
-        }
-
-        .project-header-img-small{
-            visibility: hidden;
-        }
-    
-        .project-header-img-big{
-            visibility: visible;
         }
 
 
