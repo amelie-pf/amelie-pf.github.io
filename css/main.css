@@ -446,6 +446,16 @@ ul, ol {
         text-align: left;
     }
 
+    .project-header-img-small{
+        visibility: visible;
+    }
+
+    .project-header-img-big{
+        visibility: hidden;
+    }
+
+
+
   }
 
   
@@ -551,6 +561,14 @@ ul, ol {
             text-align: left;
         }
 
+        .project-header-img-small{
+            visibility: hidden;
+        }
+    
+        .project-header-img-big{
+            visibility: visible;
+        }
+
     }
 
     /* css style für desktop */
@@ -645,6 +663,14 @@ ul, ol {
         .project-box-right{
             padding-left: 5rem;
     
+        }
+
+        .project-header-img-small{
+            visibility: hidden;
+        }
+    
+        .project-header-img-big{
+            visibility: visible;
         }
 
 
