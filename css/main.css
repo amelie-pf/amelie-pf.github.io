@@ -691,7 +691,7 @@ ul, ol {
     background-color: transparent;
     width: 300px;
     height: 300px;
-    
+    padding:0.5rem;
     /*perspective: 1000px; Remove this if you don't want the 3D effect */
   }
   
@@ -725,14 +725,18 @@ ul, ol {
     text-align: center;
     background-color:--light-beige;
     color: var(--orange);
-    padding: 2rem;
+    padding-top: 8rem;
+    padding-bottom : 8rem;
   }
   
   /* Style the back side */
   .flip-card-back {
+    display: flex;
+    justify-content: center;
     background-color: --light-beige;
     transform: rotateY(180deg);
-    padding: 2rem;
+    padding:1.5rem;
+   
   }
 
     }
