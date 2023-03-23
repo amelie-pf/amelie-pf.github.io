@@ -65,6 +65,7 @@ a:hover {
     color: var(--orange);
   }
   */
+
 /* selected link */
 a:active {
     color: var(--dark-grey);
@@ -360,6 +361,9 @@ ul, ol {
         background-color: transparent;
         }
 
+        .values-tablet-and-mobile{
+            display:flex;
+        }
 
 
   /* css style für mobile */
@@ -438,9 +442,36 @@ ul, ol {
         width: 100%;
     }
 
+
+    .values-tablet-and-mobile{
+        flex-direction: column;
+        padding:1rem;
+
+      }
     .value-flex-item{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         border-radius: 20px;
-        padding: 8rem;
+        padding:1.5rem;
+        width: 20rem;
+        height: 20rem;
+    }
+
+    .value-flex-item-title{
+        padding-bottom: 1rem;
+       color: var(--orange);
+    }
+    .value-flex-item-body{
+        color: var(--dark-grey);
+     }
+
+    .values-tablet-and-mobile{
+        display:flex;
+    }
+
+    .values-desktop{
+        display:none;
     }
 
     .project-header-box-left{
@@ -577,8 +608,29 @@ ul, ol {
         }
 
         .value-flex-item{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
             border-radius: 20px;
-            padding: 8rem;
+            padding:1.5rem;
+            width: 20rem;
+            height: 20rem;
+        }
+
+        .value-flex-item-title{
+            padding-bottom: 1rem;
+           color: var(--orange);
+        }
+        .value-flex-item-body{
+            color: var(--dark-grey);
+         }
+
+         .values-tablet-and-mobile{
+            display: inline;
+        }
+
+        .values-desktop{
+            display:none;
         }
 
         .button{ 
@@ -647,8 +699,13 @@ ul, ol {
            padding: 1.5rem;
         }
 
-       
+        .values-tablet-and-mobile{
+            display:none;
+        }
 
+        .values-desktop{
+            display: inline;
+        }
         .welcome-section{
             padding-left:10rem;
             padding-top: 9.063rem;
@@ -700,7 +757,7 @@ ul, ol {
 
         .value-flex-item{
             border-radius: 20px;
-            padding: 8rem;
+        
         }
 
 
