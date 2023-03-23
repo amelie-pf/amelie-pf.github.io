@@ -519,6 +519,10 @@ ul, ol {
         padding-bottom: 11.875rem;
         }
 
+        .flex-item{
+            width: 20rem;
+        }
+
         .title{
             padding: 5rem;
             padding-top: 2rem;
@@ -620,6 +624,10 @@ ul, ol {
             padding-left:10rem;
             padding-top: 9.063rem;
             padding-bottom: 11.875rem;
+        }
+
+        .flex-item{
+            width: 20rem;
         }
 
         .title{
