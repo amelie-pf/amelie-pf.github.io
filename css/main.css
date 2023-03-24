@@ -325,6 +325,8 @@ ul, ol {
 .about-me-box-right{   
     text-align: left;
     background-color: var(--light-beige);
+    padding-top: 2rem;
+    padding-left: 2rem;
     
 }
 
@@ -376,8 +378,17 @@ ul, ol {
 
 .project-section-heading{
     font-weight: bold;
-    size: 20px;
+    text-transform: uppercase;
+    padding-bottom: 1rem;
 }
+
+.heading{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+
 
 
 
@@ -440,7 +451,12 @@ ul, ol {
 
     .title{
         padding: 2rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 1.5rem;
     }
+  
+    
 
 
     .target-discipline-box-left{
