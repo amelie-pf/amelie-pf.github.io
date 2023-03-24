@@ -226,6 +226,8 @@ ul, ol {
 .work-section {
     background-color: #E7E3CF;
     border-radius:  1.25rem;
+    padding-bottom: 8rem;
+    padding-top: 8rem;
 }
 
 /* flex container für cards*/
@@ -575,94 +577,101 @@ href{
         padding-left:3rem;
         padding-top: 9.063rem;
         padding-bottom: 11.875rem;
-        }
-
-        .flex-item{
-            width: 20rem;
-        }
-
-        .title{
-            padding: 5rem;
-            padding-top: 2rem;
-            padding-bottom: 2rem;
-        }
-
-        .target-discipline-box-left{
-            vertical-align: middle;
-            padding-right: 5rem;
-            padding-top: 5rem;
-            text-align: left;
-        }
-
-        .about-me-box-left{
-            vertical-align: middle;
-            padding-right: 5rem;
-            text-align: left;
-        }
-
-        .about-me-box-right{
-            width: 120%;
-            border-radius: 20px 0px 0px 20px;
-            padding: 1rem;
-        }
-
-        .project-header-box-left{
-            vertical-align: middle;
-            padding-right: 3rem;
-            text-align: left;
-        }
-
-        .project-header-box-right{
-            align-items: right;
-            padding-left: 3rem;
-        }
-
-        .value-flex-item{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            border-radius: 20px;
-            padding:1.5rem;
-            width: 20rem;
-            height: 20rem;
-        }
-
-        .value-flex-item-title{
-            padding-bottom: 1rem;
-           color: var(--orange);
-        }
-        .value-flex-item-body{
-            color: var(--dark-grey);
-         }
-
-         .values-tablet-and-mobile{
-            display: inline;
-        }
-
-        .values-desktop{
-            display:none;
-        }
-
-        .button{ 
-            padding-right: 3.188rem; 
-            padding-left: 3.188rem; 
-            padding-top: 1.188rem; 
-            padding-bottom: 1.188rem;
-            
-        }
-
-        .project-box-left{
-            vertical-align: middle;
-            justify-content: center;
-        }
-
-        .project-box-right{
-            vertical-align: middle;
-            padding-left: 5rem;
-            text-align: left;
-        }
-
     }
+
+    .work-section {
+        padding-bottom: 3rem;
+        padding-top: 3rem;
+    }
+
+    .flex-item{
+        width: 20rem;
+    }
+
+    
+    .title{
+        padding: 5rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .target-discipline-box-left{
+        vertical-align: middle;
+        padding-right: 5rem;
+        padding-top: 5rem;
+        text-align: left;
+    }
+
+    .about-me-box-left{
+        vertical-align: middle;
+        padding-right: 5rem;
+        text-align: left;
+    }
+
+    .about-me-box-right{
+        width: 120%;
+        border-radius: 20px 0px 0px 20px;
+        padding: 1rem;
+    }
+
+    .project-header-box-left{
+        vertical-align: middle;
+        padding-right: 3rem;
+        text-align: left;
+    }
+
+    .project-header-box-right{
+        align-items: right;
+        padding-left: 3rem;
+    }
+
+    .value-flex-item{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 20px;
+        padding:1.5rem;
+        width: 20rem;
+        height: 20rem;
+    }
+
+    .value-flex-item-title{
+        padding-bottom: 1rem;
+        color: var(--orange);
+    }
+    .value-flex-item-body{
+        color: var(--dark-grey);
+        }
+
+        .values-tablet-and-mobile{
+        display: inline;
+    }
+
+    .values-desktop{
+        display:none;
+    }
+
+    .button{ 
+        padding-right: 3.188rem; 
+        padding-left: 3.188rem; 
+        padding-top: 1.188rem; 
+        padding-bottom: 1.188rem;
+        
+    }
+
+    .project-box-left{
+        vertical-align: middle;
+        justify-content: center;
+    }
+
+    .project-box-right{
+        vertical-align: middle;
+        padding-left: 5rem;
+        text-align: left;
+    }
+
+}
+
 
     /* css style für desktop */
     @media (min-width: 1080px) {
@@ -720,6 +729,11 @@ href{
             padding-left:10rem;
             padding-top: 9.063rem;
             padding-bottom: 11.875rem;
+        }
+
+        .work-section {
+            padding-bottom: 8rem;
+            padding-top: 8rem;
         }
 
         .flex-item{
