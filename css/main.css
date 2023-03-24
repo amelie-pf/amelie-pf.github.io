@@ -374,8 +374,9 @@ ul, ol {
         }
 
 
-href{
-    color: violet;
+.project-section-heading{
+    font-weight: bold;
+    size: 20px;
 }
 
 
@@ -440,6 +441,7 @@ href{
     .title{
         padding: 2rem;
     }
+
 
     .target-discipline-box-left{
         text-align: left;
@@ -520,10 +522,17 @@ href{
         vertical-align: middle;
         justify-content: center;
         padding-top: 1rem;
+    
 
     }
 
     .project-box-right{
+        vertical-align: middle;
+        padding:1rem;   
+        text-align: left;
+    }
+
+    .project-box-right-reverse{
         vertical-align: middle;
         padding:1rem;   
         text-align: left;
@@ -688,6 +697,12 @@ href{
         text-align: left;
     }
 
+    .project-box-right-reverse{
+        vertical-align: middle;
+        text-align: left;
+        padding-right: 2rem;
+    }
+
 }
 
 
@@ -831,6 +846,12 @@ href{
         .project-box-right{
             padding-left: 5rem;
     
+        }
+
+        .project-box-right-reverse{
+            vertical-align: middle;
+            text-align: left;
+            padding-right: 2rem;
         }
 
         /* teeeeest flipping cards*/
