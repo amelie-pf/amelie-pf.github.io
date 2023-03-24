@@ -86,8 +86,7 @@ a:active {
 .topnav a:hover {
     color: --orange;
   }
- 
-  
+
 
 ul, ol {
     margin-left: 2rem;
@@ -273,6 +272,12 @@ ul, ol {
     justify-content: space-evenly;
   }
   
+  .project-flex-container-reverse {
+    display: flex;
+    flex-direction: row;
+    font-size: 0.938rem;
+    justify-content: space-evenly;
+  }
 
   .flex-item {
     padding: 1rem;
@@ -410,7 +415,12 @@ href{
 
      .project-flex-container {
         flex-direction: column;
+        padding-top: 3rem;
 
+      }
+
+      .project-flex-container-reverse{
+        flex-direction: column;
       }
       
 
@@ -556,9 +566,16 @@ href{
     .project-flex-container {
         padding-left: 5rem;
         padding-right: 5rem;
-        padding-top: 3rem;
+        padding-top: 5rem;
         
     }
+
+    .project-flex-container-reverse{
+        padding-left: 5rem;
+        padding-right: 5rem;
+        padding-top: 5rem;
+        flex-direction: row-reverse;
+      }
   
     .project-detail-header-small{
         display: none;
@@ -709,7 +726,20 @@ href{
        .project-detail-header-big{
            display: flex;
        }
+
+
+       .project-flex-container{
+           padding-top: 8rem;
+
+      } 
     
+       .project-flex-container-reverse{
+        padding-top: 8rem;
+        flex-direction: row-reverse;
+      } 
+
+
+
         .navbar-small{
             display: none;
         }
@@ -795,6 +825,7 @@ href{
 
         .project-box-left{
             justify-content: center;
+            width: 150%;
         }
 
         .project-box-right{
