@@ -924,6 +924,18 @@ ul, ol {
         
         }
 
+        .zoom {
+            transition: transform .2s;
+            width: 16rem;
+            margin: 0 auto;
+          }
+          
+          .zoom:hover {
+            -ms-transform: scale(1.1); /* IE 9 */
+            -webkit-transform: scale(1.1); /* Safari 3-8 */
+            transform: scale(1.1); 
+          }
+
     }
 
     
@@ -941,6 +953,12 @@ ul, ol {
     transition: all 0.7s;
 }
 
+.hidden-heading{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(0%);
+    transition: all 1s;
+}
 
 
 

@@ -24,3 +24,6 @@ hiddenProjectImgElements.forEach((el) => observer.observe(el));
 
 const hiddenProjectTxtElements = document.querySelectorAll('.hidden-top');
 hiddenProjectTxtElements.forEach((el) => observer.observe(el));
+
+const hiddenHeadingElements = document.querySelectorAll('.hidden-heading');
+hiddenHeadingElements.forEach((el) => observer.observe(el));
