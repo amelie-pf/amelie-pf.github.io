@@ -15,3 +15,12 @@ const observer = new IntersectionObserver((entries) => {
 
 const hiddenElements = document.querySelectorAll('.hidden');
 hiddenElements.forEach((el) => observer.observe(el));
+
+const hiddenCardsElements = document.querySelectorAll('.hidden-cards');
+hiddenCardsElements.forEach((el) => observer.observe(el));
+
+const hiddenProjectImgElements = document.querySelectorAll('.hidden-project-img');
+hiddenProjectImgElements.forEach((el) => observer.observe(el));
+
+const hiddenProjectTxtElements = document.querySelectorAll('.hidden-top');
+hiddenProjectTxtElements.forEach((el) => observer.observe(el));
