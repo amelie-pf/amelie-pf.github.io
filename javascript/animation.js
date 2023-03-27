@@ -27,3 +27,9 @@ hiddenProjectTxtElements.forEach((el) => observer.observe(el));
 
 const hiddenHeadingElements = document.querySelectorAll('.hidden-heading');
 hiddenHeadingElements.forEach((el) => observer.observe(el));
+
+
+function goBack()
+  {
+  window.history.back()
+  }
