@@ -928,8 +928,6 @@ ul, ol {
     transition: all 1s;
 }
 
-
-
 .hidden-project-img{
     opacity: 0;
     filter: blur(5px);
