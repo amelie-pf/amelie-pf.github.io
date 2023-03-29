@@ -61,18 +61,18 @@ a:link {
 /* visited link */
 a:visited {
     color: var(--dark-grey);
-  }
+}
   
 /* mouse over link */   
 a:hover {
     color: var(--orange);
-  }
+}
   
 
 /* selected link */
 a:active {
     color: var(--dark-grey);
-  }
+}
 
 
 
@@ -227,58 +227,58 @@ ul, ol {
     justify-content: space-evenly;
     padding-bottom: 2rem;
     
-  }
+}
 
-  .target-discipline-flex-container {
+.target-discipline-flex-container {
     display: flex;
     flex-direction: row;
     font-size: 0.938rem;
     text-align: center ;
     justify-content: space-evenly;
     padding-bottom: 2rem;
-  }
+}
 
-  .about-me-flex-container {
+.about-me-flex-container {
     display: flex;
     flex-direction: row;
     font-size: 0.938rem;
     justify-content: space-evenly;
     padding-bottom: 1rem;
     
-  }
+}
 
-  .project-detail-header-flex-container {
+.project-detail-header-flex-container {
     display: flex;
     flex-direction: row;
     font-size: 0.938rem;
-  }
+}
   
-  .project-flex-container {
+.project-flex-container {
     display: flex;
     flex-direction: row;
     font-size: 0.938rem;
     justify-content: space-evenly;
-  }
+}
   
-  .project-flex-container-reverse {
+.project-flex-container-reverse {
     display: flex;
     flex-direction: row;
     font-size: 0.938rem;
     justify-content: space-evenly;
-  }
+}
 
-  .flex-item {
+.flex-item {
     padding: 1rem;
     text-align: left;
-  }
+}
 
-  .value-flex-item {
-        text-align: center;
-        color: var(--orange);
-        background-color: var(--light-beige);
-  }
+.value-flex-item {
+    text-align: center;
+    color: var(--orange);
+    background-color: var(--light-beige);
+}
 
-  .footer{
+.footer{
     text-align: center;
     justify-content: space-evenly;
     padding-top: 10rem;
@@ -353,16 +353,15 @@ ul, ol {
 
 .navbar-small{
     background-color: transparent;
-
-    }
+}
 
 .navbar-big{
-        background-color: transparent;
-        }
+    background-color: transparent;
+}
 
-        .values-tablet-and-mobile{
-            display:flex;
-        }
+.values-tablet-and-mobile{
+    display:flex;
+}
 
 
 .project-section-heading{
@@ -388,7 +387,6 @@ ul, ol {
   @media (max-width: 834px) {
     .flex-container {
       flex-direction: column;
-      
     }
 
     .target-discipline-flex-container{
@@ -397,34 +395,29 @@ ul, ol {
 
     .about-me-flex-container {
         flex-direction: column;
-
       }
 
     .project-detail-header-flex-container {
         flex-direction: row;
-
      }
 
      .project-detail-header-small{
         display: flex;
-
     }
    
-   .project-detail-header-big{
+    .project-detail-header-big{
        display: none;
-   }
+    }
 
-     .project-flex-container {
+    .project-flex-container {
         flex-direction: column;
         padding-top: 3rem;
+    }
 
-      }
-
-      .project-flex-container-reverse{
+    .project-flex-container-reverse{
         flex-direction: column;
-      }
+    }
       
-
 
     .navbar-big{
         display: none;
@@ -444,9 +437,6 @@ ul, ol {
         text-transform: uppercase;
         font-size: 1.5rem;
     }
-  
-    
-
 
     .target-discipline-box-left{
         text-align: left;
@@ -475,8 +465,8 @@ ul, ol {
     .values-tablet-and-mobile{
         flex-direction: column;
         padding:1rem;
+    }
 
-      }
     .value-flex-item{
         display: flex;
         flex-direction: column;
@@ -491,6 +481,7 @@ ul, ol {
         padding-bottom: 1rem;
        color: var(--orange);
     }
+
     .value-flex-item-body{
         color: var(--dark-grey);
      }
@@ -527,8 +518,6 @@ ul, ol {
         vertical-align: middle;
         justify-content: center;
         padding-top: 1rem;
-    
-
     }
 
     .project-box-right{
@@ -546,10 +535,6 @@ ul, ol {
     .topnav{
         padding-right: 2rem;
     }
-   
- 
-
-
   }
 
   
@@ -572,20 +557,17 @@ ul, ol {
     .about-me-flex-container {
         flex-direction: row;
         padding-left: 5rem;
-      
     }
 
     .project-detail-header-flex-container {
         flex-direction: row;
         padding-left: 5rem;
-      
     }
 
     .project-flex-container {
         padding-left: 5rem;
         padding-right: 5rem;
-        padding-top: 5rem;
-        
+        padding-top: 5rem; 
     }
 
     .project-flex-container-reverse{
@@ -597,7 +579,6 @@ ul, ol {
   
     .project-detail-header-small{
         display: none;
-
     }
    
    .project-detail-header-big{
@@ -605,7 +586,7 @@ ul, ol {
    }
 
     .navbar-big{
-    display: none;
+        display: none;
     }
 
     .welcome-section{
@@ -675,11 +656,12 @@ ul, ol {
         padding-bottom: 1rem;
         color: var(--orange);
     }
+
     .value-flex-item-body{
         color: var(--dark-grey);
-        }
+    }
 
-        .values-tablet-and-mobile{
+    .values-tablet-and-mobile{
         display: inline;
     }
 
@@ -691,8 +673,7 @@ ul, ol {
         padding-right: 3.188rem; 
         padding-left: 3.188rem; 
         padding-top: 1.188rem; 
-        padding-bottom: 1.188rem;
-        
+        padding-bottom: 1.188rem; 
     }
 
     .project-box-left{
@@ -717,227 +698,213 @@ ul, ol {
         padding-right: 2rem;
         padding-left: 2rem;
     }
-   
-
 }
 
 
-    /* css style für desktop */
+/* css style für desktop */
     @media (min-width: 1080px) {
-        .flex-container {
-          flex-direction: row;
-          text-align: center; 
-          padding-right: 9rem;
-          padding-left: 9rem;
-        
-        }
+    .flex-container {
+        flex-direction: row;
+        text-align: center; 
+        padding-right: 9rem;
+        padding-left: 9rem;
+    }
 
-        .target-discipline-flex-container {
-           padding-left: 10rem;
-          }
+    .target-discipline-flex-container {
+        padding-left: 10rem;
+    }
 
-          .about-me-flex-container {
-            flex-direction: row;
-            padding-left: 10rem;
-            text-align: right;
+    .about-me-flex-container {
+        flex-direction: row;
+        padding-left: 10rem;
+        text-align: right;
+    }
 
-          }
+    .project-detail-header-flex-container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
 
-          .project-detail-header-flex-container {
-            flex-direction: row;
-            justify-content: space-between;
-          
-        }
-
-        .project-detail-header-small{
-            display: none;
-    
-        }
+    .project-detail-header-small{
+        display: none;
+    }
        
-       .project-detail-header-big{
-           display: flex;
-       }
+    .project-detail-header-big{
+         display: flex;
+    }
 
-
-       .project-flex-container{
-           padding-top: 8rem;
-
-      } 
+    .project-flex-container{
+        padding-top: 8rem;
+    } 
     
-       .project-flex-container-reverse{
+    .project-flex-container-reverse{
         padding-top: 8rem;
         flex-direction: row-reverse;
-      } 
+    } 
 
+    .navbar-small{
+        display: none;
+    }
 
+    .navbar-big{
+        display: inline;
+        padding: 1.5rem;
+    }
 
-        .navbar-small{
-            display: none;
-            
-        }
+    .values-tablet-and-mobile{
+        display:none;
+    }
 
-        .navbar-big{
-           display: inline;
-           padding: 1.5rem;
-        }
+    .values-desktop{
+        display: inline;
+    }
 
-        .values-tablet-and-mobile{
-            display:none;
-        }
+    .welcome-section{
+        padding-left:10rem;
+        padding-top: 9rem;
+        padding-bottom: 9rem;
+    }
 
-        .values-desktop{
-            display: inline;
-        }
-        .welcome-section{
-            padding-left:10rem;
-            padding-top: 9rem;
-            padding-bottom: 9rem;
-        }
+    .work-section {
+        padding-bottom: 8rem;
+        padding-top: 8rem;
+    }
 
-        .work-section {
-            padding-bottom: 8rem;
-            padding-top: 8rem;
-        }
+    .flex-item{
+        width: 20rem;
+    }
 
-        .flex-item{
-            width: 20rem;
-        }
+    .title{
+        padding-left: 10rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
 
-        .title{
-            padding-left: 10rem;
-            padding-top: 2rem;
-            padding-bottom: 2rem;
-        }
+    .target-discipline-box-left{
+        vertical-align: top;
+        padding-right: 5rem;
+        text-align: left;
+    }
 
-        .target-discipline-box-left{
-            vertical-align: top;
-            padding-right: 5rem;
-            text-align: left;
-        }
+    .target-discipline-box-right{   
+        padding-top: 5rem;
+    }
 
-        .target-discipline-box-right{   
-            padding-top: 5rem;
-        }
+    .about-me-box-left{
+        vertical-align: top;
+        padding-right: 10rem;
+        text-align: left;
+    }
 
-        .about-me-box-left{
-            vertical-align: top;
-            padding-right: 10rem;
-            text-align: left;
-        }
+    .about-me-box-right{
+        width: 85%;
+        border-radius: 20px 0px 0px 20px;
+        padding: 1rem;
+    }
 
-        .about-me-box-right{
-            width: 85%;
-            border-radius: 20px 0px 0px 20px;
-            padding: 1rem;
-        }
+    .project-header-box-left{
+        vertical-align: middle;
+        text-align: left;
+    }
 
-        .project-header-box-left{
-            vertical-align: middle;
-            text-align: left;
-        }
-
-        .project-header-box-right{
-            align-items: right;
-        
-        }
-
-        .value-flex-item{
-            border-radius: 20px;
-        
-        }
-
-        .button{ 
-            padding-right: 3.188rem; 
-            padding-left: 3.188rem; 
-            padding-top: 1.188rem; 
-            padding-bottom: 1.188rem;
-        }
-
-        .project-box-left{
-            justify-content: center;
-            width: 150%;
-        }
-
-        .project-box-right{
-            padding-left: 5rem;
+    .project-header-box-right{
+        align-items: right;
     
-        }
+    }
 
-        .project-box-right-reverse{
-            vertical-align: middle;
-            text-align: left;
-            padding-right: 2rem;
-        }
-
-        /* teeeeest flipping cards*/
-        /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
-        .flip-card {
-            background-color: transparent;
-            width: 300px;
-            height: 300px;
-            padding:0.5rem;
-            /*perspective: 1000px; Remove this if you don't want the 3D effect */
-        }
-        
-        /* This container is needed to position the front and back side */
-        .flip-card-inner {
-            position: relative;
-            width: 100%;
-            height: 100%;
-            transition: transform 0.8s;
-            transform-style: preserve-3d;
-            background-color: var(--light-beige);
-            border-radius: 20px;
-        }
-        
-        /* Do an horizontal flip when you move the mouse over the flip box container */
-        .flip-card:hover .flip-card-inner {
-            transform: rotateY(180deg);
-        }
-        
-        /* Position the front and back side */
-        .flip-card-front, .flip-card-back {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            -webkit-backface-visibility: hidden; /* Safari */
-            backface-visibility: hidden;
-        }
-        
-        /* Style the front side (fallback if image is missing) */
-        .flip-card-front {
-            text-align: center;
-            background-color:--light-beige;
-            color: var(--orange);
-            padding-top: 8rem;
-            padding-bottom : 8rem;
-        }
-        
-        /* Style the back side */
-        .flip-card-back {
-            display: flex;
-            justify-content: center;
-            background-color: --light-beige;
-            transform: rotateY(180deg);
-            padding:1.5rem;
-        
-        }
-
-        .zoom {
-            transition: transform .2s;
-            width: 16rem;
-            margin: 0 auto;
-          }
-          
-          .zoom:hover {
-            -ms-transform: scale(1.1); /* IE 9 */
-            -webkit-transform: scale(1.1); /* Safari 3-8 */
-            transform: scale(1.1); 
-          }
-
+    .value-flex-item{
+        border-radius: 20px;
     
+    }
+
+    .button{ 
+        padding-right: 3.188rem; 
+        padding-left: 3.188rem; 
+        padding-top: 1.188rem; 
+        padding-bottom: 1.188rem;
+    }
+
+    .project-box-left{
+        justify-content: center;
+        width: 150%;
+    }
+
+    .project-box-right{
+        padding-left: 5rem;
 
     }
+
+    .project-box-right-reverse{
+        vertical-align: middle;
+        text-align: left;
+        padding-right: 2rem;
+    }
+
+    /* teeeeest flipping cards*/
+    /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+    .flip-card {
+        background-color: transparent;
+        width: 300px;
+        height: 300px;
+        padding:0.5rem;
+        /*perspective: 1000px; Remove this if you don't want the 3D effect */
+    }
+        
+    /* This container is needed to position the front and back side */
+    .flip-card-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        transition: transform 0.8s;
+        transform-style: preserve-3d;
+        background-color: var(--light-beige);
+        border-radius: 20px;
+    }
+        
+    /* Do an horizontal flip when you move the mouse over the flip box container */
+    .flip-card:hover .flip-card-inner {
+        transform: rotateY(180deg);
+    }
+        
+    /* Position the front and back side */
+    .flip-card-front, .flip-card-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden; /* Safari */
+        backface-visibility: hidden;
+    }
+        
+    /* Style the front side (fallback if image is missing) */
+    .flip-card-front {
+        text-align: center;
+        background-color:--light-beige;
+        color: var(--orange);
+        padding-top: 8rem;
+        padding-bottom : 8rem;
+    }
+        
+    /* Style the back side */
+    .flip-card-back {
+        display: flex;
+        justify-content: center;
+        background-color: --light-beige;
+        transform: rotateY(180deg);
+        padding:1.5rem;
+    }
+
+    .zoom {
+        transition: transform .2s;
+        width: 16rem;
+        margin: 0 auto;
+        }
+          
+    .zoom:hover {
+        -ms-transform: scale(1.1); /* IE 9 */
+        -webkit-transform: scale(1.1); /* Safari 3-8 */
+        transform: scale(1.1); 
+    }
+}
 
     
  /* animation test*/
