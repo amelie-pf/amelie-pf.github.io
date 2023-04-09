@@ -13,6 +13,8 @@
 /* Type */
 body {
     font-family: var(--serif);
+    color: var(--dark-grey);
+    background-color: var(--off-white);
 }
 
 * {
@@ -392,10 +394,6 @@ ul, ol {
         align-items: center;
       }
 
-
-
-
-      
       .nav-menu li {
         position: relative;
         margin-right: 20px;
@@ -406,7 +404,6 @@ ul, ol {
       .nav-menu li::before {
         content: '';
         position: absolute;
-       
         top: 0;
         width: 2px;
         height: 0;
@@ -435,6 +432,14 @@ ul, ol {
         color: var(--orange)
       }
 
+      .current-page{
+        display: inline-block;
+        position: relative; 
+        padding-left: 
+        10px; border-left: 
+        2px solid #B75800;
+      }
+
 
 
       
@@ -446,7 +451,8 @@ ul, ol {
   }
   
   header{
-   background-color:white ;
+   background-color:var(--off-white) ;
+   padding-top: 2rem;
   }
   
   li{
@@ -527,7 +533,7 @@ ul, ol {
     top: 70px;
     gap: 0;
     flex-direction: column;
-    background-color:white ;
+    background-color:var(--off-white);
     width: 100%;
     text-align: center;
     transition: 0.3s;
