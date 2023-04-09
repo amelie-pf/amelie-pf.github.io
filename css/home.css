@@ -1,0 +1,187 @@
+
+/*project cards*/
+
+.project-cards {
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--light-beige);
+    border-radius: 20px;
+    background-color: var(--off-white);
+    padding-top: 3.25rem;
+}
+
+.project-cards__title {
+    color: var(--dark-grey);
+    padding: 0.125rem 1rem 0.25rem;
+}
+
+.project-cards__dicipline{
+    color: var(--orange);
+    padding: 0.125rem 1rem 0.25rem
+}
+
+.discipline{
+    color: var(--orange); 
+}
+
+.work-section {
+    background-color: #E7E3CF;
+    border-radius:  1.25rem;
+    padding-bottom: 8rem;
+    padding-top: 8rem;
+}
+
+/* flex container für cards*/
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 0.938rem;
+    text-align: center ;
+    justify-content: space-evenly;
+    padding-bottom: 2rem;
+    
+}
+
+.target-discipline-flex-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 0.938rem;
+    text-align: center ;
+    justify-content: space-evenly;
+    padding-bottom: 2rem;
+}
+
+.about-me-flex-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 0.938rem;
+    justify-content: space-evenly;
+    padding-bottom: 1rem;
+    
+}
+
+.project-detail-header-flex-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 0.938rem;
+}
+
+
+.flex-item {
+    padding: 1rem;
+    text-align: left;
+}
+
+.hidden{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-5%);
+    transition: all 1s;
+}
+
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+    }
+
+
+.flex-item {
+    padding: 1rem;
+    text-align: left;
+}
+
+
+.zoom {
+    transition: transform .2s;
+    width: 16rem;
+    margin: 0 auto;
+    }
+      
+.zoom:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+}
+
+ /* css style für mobile */
+ @media (max-width: 834px) {
+      
+
+    .welcome-section{
+        padding-left:1.25rem;
+        padding-right:1.25rem;
+        padding-top: 9.063rem;
+        padding-bottom: 11.875rem;
+      
+    }
+
+    .flex-container {
+        flex-direction: column;
+      }
+  
+      
+
+   
+}
+
+
+
+/* css style für tablet */
+
+@media (min-width: 835px) {
+
+    .welcome-section{
+        padding-left:5rem;
+        padding-left:3rem;
+        padding-top: 9.063rem;
+        padding-bottom: 11.875rem;
+    }
+
+    .work-section {
+        padding-bottom: 3rem;
+        padding-top: 3rem; 
+    }
+
+    .flex-container {
+        flex-direction: row;
+        text-align: center;
+        padding-left: 5rem;
+        padding-right: 5rem;
+      }
+
+      .flex-item{
+        width: 20rem;
+    }
+
+}
+
+
+/* css style für desktop */
+@media (min-width: 1080px) {
+
+    .welcome-section{
+        padding-left:10rem;
+        padding-top: 9rem;
+        padding-bottom: 9rem;
+    }
+
+
+    .work-section {
+        padding-bottom: 8rem;
+        padding-top: 8rem;
+    }
+
+    .flex-container {
+        flex-direction: row;
+        text-align: center; 
+        padding-right: 9rem;
+        padding-left: 9rem;
+    }
+   
+    .flex-item {
+        padding: 1rem;
+        text-align: left;
+    }
+}

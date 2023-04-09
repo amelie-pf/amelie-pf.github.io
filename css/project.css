@@ -1,0 +1,279 @@
+
+.project-detail-header-small{
+    background-color: var(--light-beige);
+    border-radius: 20px;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.project-detail-header-big{
+    background-color: var(--light-beige);
+    border-radius: 20px;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.project-detail-header-flex-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 0.938rem;
+}
+
+.project-detail-header-flex-container {
+    flex-direction: row;
+ }
+
+ .project-header-box-left{
+    text-align: left;
+}
+
+.hidden-top{
+    opacity: 0;
+    transform: translateY(-10%);
+    transition: all 1s;
+}
+
+.project-header-box-right{   
+    text-align: left;
+    background-color: var(--light-beige);
+   
+}
+
+.project-flex-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 0.938rem;
+    justify-content: space-evenly;
+}
+
+
+.project-box-left{
+    text-align: left;
+}
+
+.hidden-project-img{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-5%);
+    transition: all 0.7s;
+}
+
+.hidden-top{
+    opacity: 0;
+    transform: translateY(-10%);
+    transition: all 1s;
+}
+
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+    }
+
+
+.project-section-heading{
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 1rem;
+}
+
+.project-flex-container-reverse {
+    display: flex;
+    flex-direction: row;
+    font-size: 0.938rem;
+    justify-content: space-evenly;
+}
+
+
+.project-box-right{   
+    align-items: center;
+    justify-items: center;
+}
+
+ /* css style für mobile */
+ @media (max-width: 834px) {
+    .project-detail-header-small{
+        display: flex;
+    }
+
+    .project-detail-header-big{
+        display: none;
+     }
+ 
+
+    .project-detail-header-flex-container {
+        flex-direction: row;
+     }
+
+
+    .project-header-box-left{
+        padding-left: 2rem;
+        justify-content: center;
+       
+    }
+
+    .project-header-box-right{
+        align-items: right;
+        padding-left: 2rem;
+        text-align: right;
+    }
+
+    .project-flex-container {
+        flex-direction: column;
+        padding-top: 3rem;
+    }
+
+    .project-box-left{
+        vertical-align: middle;
+        justify-content: center;
+        padding-top: 1rem;
+    }
+
+
+    .project-box-right{
+        vertical-align: middle;
+        padding:1rem;   
+        text-align: left;
+    }
+
+
+
+
+    .project-box-right-reverse{
+        vertical-align: middle;
+        padding:1rem;   
+        text-align: left;
+    }
+
+    .project-flex-container-reverse{
+        flex-direction: column;
+    }
+      
+
+}
+
+
+
+/* css style für tablet */
+
+@media (min-width: 835px) {
+
+
+    .project-detail-header-small{
+        display: none;
+    }
+
+
+   .project-detail-header-big{
+       display: flex;
+   }
+   
+    .project-detail-header-flex-container {
+        flex-direction: row;
+        padding-left: 5rem;
+    }
+
+    .project-header-box-left{
+        vertical-align: middle;
+        padding-right: 3rem;
+        text-align: left;
+    }
+
+    .project-header-box-right{
+        align-items: right;
+        padding-left: 3rem;
+    }
+
+    .project-flex-container {
+        padding-left: 5rem;
+        padding-right: 5rem;
+        padding-top: 5rem; 
+    }
+
+    .project-box-left{
+        vertical-align: middle;
+        justify-content: center;
+    }
+
+    .project-box-right{
+        vertical-align: middle;
+        padding-left: 5rem;
+        text-align: left;
+    }
+
+    .project-box-right-reverse{
+        vertical-align: middle;
+        text-align: left;
+        padding-right: 2rem;
+    }
+
+
+    .project-flex-container-reverse{
+        padding-left: 5rem;
+        padding-right: 5rem;
+        padding-top: 5rem;
+        flex-direction: row-reverse;
+      }
+}
+
+
+/* css style für desktop */
+@media (min-width: 1080px) {
+
+    .project-flex-container{
+        padding-top: 8rem;
+    } 
+
+    .project-detail-header-small{
+        display: none;
+    }
+
+    .project-detail-header-big{
+        display: flex;
+   }
+
+       
+    .project-detail-header-flex-container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+
+    .project-header-box-left{
+        vertical-align: middle;
+        text-align: left;
+    }
+
+    .project-header-box-right{
+        align-items: right;
+    
+    }
+
+    .project-box-left{
+        justify-content: center;
+        width: 150%;
+    }
+
+
+    .project-box-right{
+        padding-left: 5rem;
+
+    }
+
+
+    .project-box-right-reverse{
+        vertical-align: middle;
+        text-align: left;
+        padding-right: 2rem;
+    }
+
+    .project-flex-container-reverse{
+        padding-top: 8rem;
+        flex-direction: row-reverse;
+    } 
+
+   
+}
+
+
+
