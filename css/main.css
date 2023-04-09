@@ -43,7 +43,7 @@ p, ul, ol {
 section {
     margin: 2.5rem 0;
 }
-*/
+
 nav {
     padding-top: 2rem;
     padding-right: 1.25rem;
@@ -51,6 +51,7 @@ nav {
     justify-content: center;
     align-items: center;
 }
+*/
 
 /* unvisited link */
 a:link {
@@ -75,10 +76,10 @@ a:active {
 }
 
 
-
+/*
 ul, ol {
     margin-left: 2rem;
-}
+}*/
 
 .container {
     max-width: 80rem;
@@ -355,9 +356,6 @@ ul, ol {
     background-color: transparent;
 }
 
-.navbar-big{
-    background-color: transparent;
-}
 
 .values-tablet-and-mobile{
     display:flex;
@@ -418,10 +416,6 @@ ul, ol {
         flex-direction: column;
     }
       
-
-    .navbar-big{
-        display: none;
-    }
 
     .welcome-section{
         padding-left:1.25rem;
@@ -535,6 +529,7 @@ ul, ol {
     .topnav{
         padding-right: 2rem;
     }
+   
   }
 
   
@@ -584,11 +579,6 @@ ul, ol {
    .project-detail-header-big{
        display: flex;
    }
-
-    .navbar-big{
-        display: none;
-    }
-
     .welcome-section{
         padding-left:5rem;
         padding-left:3rem;
@@ -746,10 +736,6 @@ ul, ol {
         display: none;
     }
 
-    .navbar-big{
-        display: inline;
-        padding: 1.5rem;
-    }
 
     .values-tablet-and-mobile{
         display:none;
@@ -991,7 +977,7 @@ ul, ol {
 
 
 
-   
+   /*
       nav {
         display: flex;
         justify-content: space-between;
@@ -1001,19 +987,9 @@ ul, ol {
 
 
       }
-      
-      .nav-icon {
-        font-size: 24px;
-        color: var(--dark-grey);
-        margin-right: 20px;
-      }
-      
-      .nav-menu {
-        display: flex;
-        list-style: none;
-        margin: 0;
-        padding: 0;
-      }
+      */
+     
+    
       
       .nav-menu li {
         position: relative;
@@ -1115,3 +1091,108 @@ ul, ol {
       
       
       
+/* neuer code für nav bar mit burger menue */
+*{
+    padding: 0;
+    margin: 0;
+  }
+  
+  header{
+   background-color:white ;
+  }
+  
+  li{
+    list-style: none;
+  }
+  
+  a{
+    color: var(--dark-grey);
+    text-decoration: none;
+  }
+  
+  .container-neu{
+    max-width: 1224px;
+    width: 92%;
+    margin: 0 auto;
+  }
+  
+  .navbar{
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-branding{
+    font-size: 2rem;
+  }
+  
+  .nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+  }
+  
+  .nav-link{
+    transition: 0.3s ease-out;
+  }
+  
+  .nav-link-neu:hover{
+    color: var(--orange);
+  }
+  
+  .hamburger{
+    display: none;
+    cursor: pointer;
+  }
+  
+  .bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    background-color: var(--dark-grey);
+  }
+  
+  @media(max-width:1024px){
+   /* neuer code für nav bar 8.april*/
+    .hamburger{
+    display: block;
+  }
+
+  .hamburger.active .bar:nth-child(2){
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .nav-menu{
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    background-color:white ;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+    
+  }
+
+  .nav-item{
+    margin: 16px 0;
+  }
+
+  .nav-menu.active{
+    left: 0;
+  }
+    
+  }
+  
