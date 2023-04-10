@@ -87,12 +87,6 @@
     }
 
 
-.flex-item {
-    padding: 1rem;
-    text-align: left;
-}
-
-
 .zoom {
     transition: transform .2s;
     width: 16rem;
@@ -121,6 +115,12 @@
         flex-direction: column;
       }
   
+      .flex-item{
+        text-align: center;
+    }
+    .zoom {
+        width: 100%;
+        }
       
 
    
@@ -131,6 +131,13 @@
 /* css style für tablet */
 
 @media (min-width: 835px) {
+    .flex-container {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        padding-left: 5rem;
+        padding-right: 5rem;
+      }
 
     .welcome-section{
         padding-left:5rem;
@@ -144,16 +151,16 @@
         padding-top: 3rem; 
     }
 
-    .flex-container {
-        flex-direction: row;
-        text-align: center;
-        padding-left: 5rem;
-        padding-right: 5rem;
-      }
-
       .flex-item{
         width: 20rem;
     }
+
+    .zoom {
+        
+        width: 100%;
+
+        }
+          
 
 }
 

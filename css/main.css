@@ -204,16 +204,11 @@ ul, ol {
 }
 
 
-
-
-
-
-
-
   /* css style für mobile */
   @media (max-width: 834px) {
     .flex-container {
       flex-direction: column;
+      
     }
 
 
