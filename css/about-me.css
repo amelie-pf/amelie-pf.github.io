@@ -178,6 +178,8 @@
         width: 120%;
         border-radius: 20px 0px 0px 20px;
         padding: 1rem;
+        min-width: 15rem;
+        height: max-content;
     }
     .value-flex-item{
         display: flex;
@@ -227,14 +229,19 @@
 
     .about-me-box-left{
         vertical-align: top;
-        padding-right: 10rem;
+        padding-right: 5rem;
         text-align: left;
     }
 
     .about-me-box-right{
-        width: 85%;
+        vertical-align: middle;
+        width: 180%;
         border-radius: 20px 0px 0px 20px;
         padding: 1rem;
+        padding-right: 5rem;
+        min-width: 20rem;
+
+
     }
 
     .values-tablet-and-mobile{
