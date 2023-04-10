@@ -18,6 +18,12 @@
      
  }
 
+ .value-flex-item {
+    text-align: center;
+    color: var(--orange);
+    background-color: var(--light-beige);
+}
+
 
 .values-tablet-and-mobile{
     display:flex;
@@ -88,6 +94,7 @@
  @media (max-width: 834px) {
     .flex-container {
         flex-direction: column;
+        text-align: center;
       }
 
     .about-me-flex-container {
@@ -117,18 +124,20 @@
 
     .values-tablet-and-mobile{
         flex-direction: column;
+      
         padding:1rem;
     }
 
 
     .value-flex-item{
+
         display: flex;
         flex-direction: column;
         justify-content: center;
         border-radius: 20px;
         padding:1.5rem;
-        width: 20rem;
-        height: 20rem;
+        width: 25rem;
+        height: 25rem;
     }
 
     .value-flex-item-title{

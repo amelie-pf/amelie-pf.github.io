@@ -208,7 +208,7 @@ ul, ol {
   @media (max-width: 834px) {
     .flex-container {
       flex-direction: column;
-      
+      text-align: center;
     }
 
 
@@ -282,6 +282,8 @@ ul, ol {
         padding-right: 9rem;
         padding-left: 9rem;
     }
+
+   
 
    
 
