@@ -242,6 +242,13 @@ ul, ol {
    
   }
 
+  .vcentered{
+    vertical-align: middle;
+    display: -webkit-inline-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+  }
+
   
 
 
