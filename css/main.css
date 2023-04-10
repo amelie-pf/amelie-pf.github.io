@@ -17,6 +17,10 @@ body {
     background-color: var(--off-white);
 }
 
+main {
+padding-top: 4rem;
+}
+
 * {
     line-height: 1.5;
 }
@@ -452,7 +456,8 @@ ul, ol {
   
   header{
    background-color:var(--off-white) ;
-   padding-top: 2rem;
+   width:100%;
+  
   }
   
   li{
@@ -465,16 +470,24 @@ ul, ol {
   }
   
   .container-neu{
-    max-width: 1224px;
-    width: 92%;
-    margin: 0 auto;
+    position: fixed;
+    background-color:var(--off-white) ;
+ 
+    width:100%;
+
+    z-index: 1;
   }
   
   .navbar{
+   padding-top: 1rem;
+   padding-bottom: 0.5rem;
+   padding-left: 2rem;
+   padding-right: 2rem;
     min-height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 1;
   }
   
   .nav-branding{
@@ -537,6 +550,8 @@ ul, ol {
     width: 100%;
     text-align: center;
     transition: 0.3s;
+    z-index: 1;
+    box-shadow: 0 7px 7px rgba(182, 182, 182, 0.75);
     
   }
 
@@ -547,6 +562,8 @@ ul, ol {
   .nav-menu.active{
     left: 0;
   }
+
+ 
     
   }
   
