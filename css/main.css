@@ -470,7 +470,8 @@ ul, ol {
   }
   
   header{
-   background-color:var(--off-white) ;
+   /*background-color:var(--off-white) ;*/
+  
    width:100%;
   
   }
@@ -486,7 +487,7 @@ ul, ol {
   
   .container-neu{
     position: fixed;
-    background-color:var(--off-white) ;
+    backdrop-filter: blur(5px);
  
     width:100%;
 
@@ -553,6 +554,10 @@ ul, ol {
   }
   .hamburger.active .bar:nth-child(3){
     transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .container-neu{
+    background-color: var(--off-white);
   }
 
   .nav-menu{
