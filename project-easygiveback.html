@@ -105,7 +105,7 @@
 
             <div class="project-box-left hidden-project-img" style="padding-bottom: 1rem;">
 
-                <img src="images/project-detail/easygiveback/group-picture.png" width=100%>
+                <img class="myImages" src="images/project-detail/easygiveback/group-picture.png" width=100%>
 
             
             </div>
@@ -131,7 +131,7 @@
 
                 <div class="project-box-left hidden-project-img">
 
-                    <img src="images/project-detail/easygiveback/image-5.png" width=100%>
+                    <img class="myImages" src="images/project-detail/easygiveback/image-5.png" width=100%>
     
                 </div>
                 
@@ -150,13 +150,13 @@
 
                 <div class="project-box-left hidden-project-img">
 
-                    <img src="images/project-detail/easygiveback/mockup-orga.png" width=100%>
+                    <img class="myImages" src="images/project-detail/easygiveback/mockup-orga.png" width=100%>
     
                 </div>
                 
                 <div class="project-box-right hidden-top" style="align-items: center;">
     
-                    <p class="project-section-heading">Improvements to the design</p>
+                    <p class="myImages" class="project-section-heading">Improvements to the design</p>
 
                     <p>
                         We redesigned the home page, the filter page, organization pages and the payment page. There were made changes in navigation, functionality and design. <br>
@@ -171,7 +171,7 @@
 
                 <div class="project-box-left hidden-project-img">
 
-                    <img src="images/project-detail/easygiveback/image-1.png" width=100%>
+                    <img class="myImages" src="images/project-detail/easygiveback/image-1.png" width=100%>
     
                 </div>
                 
@@ -190,33 +190,38 @@
             </section>
 
            
-        
+            <div id="myModal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img01">
+                <div id="caption"></div>
+              </div>
+    
     </main>
     <footer>
-        <div class="footer" style="flex-direction: row;">
-  
-          
-          <a class="footer-content vcentered"  href="https://www.linkedin.com/in/amelie-pfänder/" target="_blank">
-            <i>
-              <img style="width: 25px; height: 25px; color: #272727; " src=images/icons/linkedin.png> 
-            </i>
-          </a>
-       
-        <a class="footer-content vcentered"  href="mailto:amelie.pfaender@gmx.de">
+      <div class="footer" style="flex-direction: row;">
+
+        
+        <a class="footer-content vcentered"  href="https://www.linkedin.com/in/amelie-pfänder/" target="_blank">
           <i>
-            <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
-              <lord-icon
-                  src="https://cdn.lordicon.com/rpztpstw.json"
-                  trigger="hover"
-                  colors="primary:#272727,secondary:#b75800"
-                  style="width:50px;height:50px">
-              </lord-icon>
+            <img style="width: 25px; height: 25px; color: #272727; " src=images/icons/linkedin.png> 
           </i>
         </a>
-          
-          <p style="padding-top: 2rem; font-size: small; "> &copy Amelie Pfaender 2023</p>
-        </div>
-      </footer>
+     
+      <a class="footer-content vcentered"  href="mailto:amelie.pfaender@gmx.de">
+        <i>
+          <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+            <lord-icon
+                src="https://cdn.lordicon.com/rpztpstw.json"
+                trigger="hover"
+                colors="primary:#272727,secondary:#b75800"
+                style="width:50px;height:50px">
+            </lord-icon>
+        </i>
+      </a>
+        
+        <p style="padding-top: 2rem; font-size: small; "> &copy Amelie Pfaender 2023</p>
+      </div>
+    </footer>
 
     <script defer src="javascript/animation.js"> </script>
 
