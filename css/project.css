@@ -137,8 +137,6 @@
     }
 
 
-
-
     .project-box-right-reverse{
         vertical-align: middle;
         padding:1rem;   
@@ -160,12 +158,12 @@
 
 
     .project-detail-header-small{
-        display: none;
+        display: flex;
     }
 
 
    .project-detail-header-big{
-       display: flex;
+       display: none;
    }
    
     .project-detail-header-flex-container {
@@ -184,36 +182,38 @@
         padding-left: 3rem;
     }
 
-    .project-flex-container {
-        padding-left: 5rem;
-        padding-right: 5rem;
-        padding-top: 5rem; 
+
+  .project-flex-container {
+        flex-direction: column;
+        padding-top: 5rem;
     }
 
     .project-box-left{
         vertical-align: middle;
         justify-content: center;
+        padding-top: 1rem;
     }
+
 
     .project-box-right{
         vertical-align: middle;
-        padding-left: 5rem;
+        padding:1rem;   
         text-align: left;
     }
+
 
     .project-box-right-reverse{
         vertical-align: middle;
+        padding:1rem;   
         text-align: left;
-        padding-right: 2rem;
+    }
+
+    .project-flex-container-reverse{
+        flex-direction: column;
     }
 
 
-    .project-flex-container-reverse{
-        padding-left: 5rem;
-        padding-right: 5rem;
-        padding-top: 5rem;
-        flex-direction: row-reverse;
-      }
+      
 }
 
 
@@ -222,6 +222,8 @@
 
     .project-flex-container{
         padding-top: 8rem;
+        flex-direction: row;
+        padding-left: 1rem;
     } 
 
     .project-detail-header-small{
@@ -246,20 +248,22 @@
 
     .project-header-box-right{
         align-items: right;
+       
     
     }
 
     .project-box-left{
         justify-content: center;
         width: 150%;
+        flex-direction: row;
     }
 
 
     .project-box-right{
         padding-left: 5rem;
+        flex-direction: row;
 
     }
-
 
     .project-box-right-reverse{
         vertical-align: middle;

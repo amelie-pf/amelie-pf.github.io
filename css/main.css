@@ -188,18 +188,22 @@ ul, ol {
 
 .footer-content{
     padding: 2rem;
-    color: #B75800
+    color: var(--orange)
 
 }
 
 
 .button{
     border-radius: 50px; 
-    background-color: #B75800; 
+    background-color: var(--orange);
     color: white; 
 
     border: none;
     font-weight: bold;
+}
+
+.button:hover {
+  background-color:   #d87b23;
 }
 
 
