@@ -1,4 +1,4 @@
-/*code für nav bar mit burger menue */
+/*nav bar*/
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
 

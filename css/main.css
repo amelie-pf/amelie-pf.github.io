@@ -41,30 +41,10 @@ h2, .h2 { font-size: 1.875rem }
 h3, .h3 { font-size: 1.25rem }
 h4, .h4 { font-size: 0.938rem }
 
-/*
-h5, .h5 { font-size: 1.333rem }
-h6, .h6 { font-size: 1rem }
-*/
 
 p, ul, ol {
     margin-bottom: 1rem;
 }
-
-/* Layout 
-section {
-    margin: 2.5rem 0;
-}
-
-nav {
-    padding-top: 2rem;
-    padding-right: 1.25rem;
-    padding-left: 1.25;
-    justify-content: center;
-    align-items: center;
-}
-*/
-
-
 
 /* unvisited link */
 a:link {
